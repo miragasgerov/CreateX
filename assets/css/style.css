@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 10rem;
+}
+.hero nav ul li a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+}
+.hero nav .talktoHuman {
+  background: #7772F1;
+  padding: 0px 40px;
+}
+.hero nav .talktoHuman a {
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  color: white;
+  text-decoration: none;
+}
+.hero .heroContent {
+  margin-top: 80px;
+}
+.hero .heroContent h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+.hero .heroContent h1 span {
+  color: #7772F1 !important;
+}
+.hero .heroContent .heroBottom .herobottomContent {
+  padding: 0px 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.hero .heroContent .heroBottom .herobottomContent a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: white !important;
+}
+.hero .heroContent .heroBottom .heroBottomBtn img {
+  width: 55px;
+}
+.hero .heroContent .heroBottom .heroBottomBtn h4 {
+  color: white;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+}
+.hero #thirdRow ul {
+  list-style-type: none;
+}
+.hero #thirdRow ul li a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .heroContent h1 {
+    font-size: 30px !important;
+  }
+  .heroImg img {
+    height: 300px !important;
+  }
+  .hero {
+    padding-bottom: 15rem !important;
+  }
+  #thirdRow ul {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  #thirdRow ul li {
+    margin-top: 20px;
+  }
+}
+.aboutCreateX {
+  margin-top: 12rem;
+}
+.aboutCreateX .aboutCreateText h3 {
+  color: #1E212C;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+}
+.aboutCreateX .createRef {
+  gap: 20px;
+}
+.aboutCreateX .createRef .refAbout p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #424551;
+}
+.aboutCreateX #clientRow {
+  margin-top: 11.25rem;
+}
+
+@media (max-width: 992px) {
+  .aboutCreateText h3 {
+    font-size: 18px !important;
+  }
+  .refAbout {
+    margin-top: 20px;
+  }
+  #clientRow {
+    margin-top: 5rem !important;
+  }
+}
+.createxAgency {
+  margin-top: 13rem;
+  padding-bottom: 5rem;
+}
+.createxAgency h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+}
+.createxAgency p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787A80;
+  font-style: normal;
+}
+.createxAgency a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  background: #7772F1;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.createxAgency a:hover {
+  color: white !important;
+}
+
+.circle {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.circle h4 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1E212C;
+}
+.circle img {
+  width: 100px;
+  height: 100px;
+}
+
+.ourService {
+  margin-top: 180px;
+}
+.ourService h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  text-align: center;
+}
+.ourService ul li .active {
+  border: 1px solid #7772F1 !important;
+  border-radius: 4px !important;
+  color: #7772F1 !important;
+  background-color: transparent !important;
+}
+.ourService ul li button {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #9A9CA5 !important;
+}
+.ourService .tab-content h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1E212C !important;
+}
+.ourService .tab-content ul {
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+.ourService .tab-content ul li {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  font-style: normal;
+  margin-top: 0.6rem;
+}
+.ourService .tab-content .serviceBtn a {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #7772F1;
+  padding: 12px 32px;
+  border: 1px solid #7772F1;
+  border-radius: 4px;
+  font-style: normal;
+  text-decoration: none;
+}
+.ourService .tab-content .serviceBtn a:hover {
+  background: #7772F1;
+  color: white;
+}
+.ourService .tab-content .serviceBtn a:nth-child(2) {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  padding: 12px 32px;
+  background: #7772F1;
+  border-radius: 4px;
+  font-style: normal;
+}
+
+.seoAnalysis {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.seoAnalysis h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+.seoAnalysis input {
+  background-color: transparent !important;
+}
+.seoAnalysis label {
+  color: white !important;
+}
+.seoAnalysis #gridCheck {
+  background-color: rgb(139, 139, 139) !important;
+}
+.seoAnalysis #formBtn {
+  padding: 0px 44px;
+  background: #7772F1 !important;
+  border-radius: 4px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */

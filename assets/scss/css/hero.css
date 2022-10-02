@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 10rem;
+}
+.hero nav ul li a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+}
+.hero nav .talktoHuman {
+  background: #7772F1;
+  padding: 0px 40px;
+}
+.hero nav .talktoHuman a {
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  color: white;
+  text-decoration: none;
+}
+.hero .heroContent {
+  margin-top: 80px;
+}
+.hero .heroContent h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+.hero .heroContent h1 span {
+  color: #7772F1 !important;
+}
+.hero .heroContent .heroBottom .herobottomContent {
+  padding: 0px 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.hero .heroContent .heroBottom .herobottomContent a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: white !important;
+}
+.hero .heroContent .heroBottom .heroBottomBtn img {
+  width: 55px;
+}
+.hero .heroContent .heroBottom .heroBottomBtn h4 {
+  color: white;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+}
+.hero #thirdRow ul {
+  list-style-type: none;
+}
+.hero #thirdRow ul li a {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  .heroContent h1 {
+    font-size: 30px !important;
+  }
+  .heroImg img {
+    height: 300px !important;
+  }
+  .hero {
+    padding-bottom: 15rem !important;
+  }
+  #thirdRow ul {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  #thirdRow ul li {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=hero.css.map */

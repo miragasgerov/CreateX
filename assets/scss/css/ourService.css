@@ -1,0 +1,78 @@
+.ourService {
+  margin-top: 180px;
+}
+.ourService h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  text-align: center;
+}
+.ourService ul li .active {
+  border: 1px solid #7772F1 !important;
+  border-radius: 4px !important;
+  color: #7772F1 !important;
+  background-color: transparent !important;
+}
+.ourService ul li button {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #9A9CA5 !important;
+}
+.ourService .tab-content h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1E212C !important;
+}
+.ourService .tab-content ul {
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+.ourService .tab-content ul li {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+  font-style: normal;
+  margin-top: 0.6rem;
+}
+.ourService .tab-content .serviceBtn a {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #7772F1;
+  padding: 12px 32px;
+  border: 1px solid #7772F1;
+  border-radius: 4px;
+  font-style: normal;
+  text-decoration: none;
+}
+.ourService .tab-content .serviceBtn a:hover {
+  background: #7772F1;
+  color: white;
+}
+.ourService .tab-content .serviceBtn a:nth-child(2) {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  padding: 12px 32px;
+  background: #7772F1;
+  border-radius: 4px;
+  font-style: normal;
+}/*# sourceMappingURL=ourService.css.map */

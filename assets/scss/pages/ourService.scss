@@ -1,0 +1,101 @@
+.ourService{
+    margin-top: 180px;
+
+    h1{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 130%;
+        text-align: center;
+    }
+
+    ul{
+        li{
+
+            .active{
+                border: 1px solid #7772F1 !important;
+                border-radius: 4px !important;
+                color: #7772F1 !important;
+                background-color: transparent !important;
+            
+                
+            }
+            
+            button{
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 160%;
+                text-align: center;
+                color: #9A9CA5 !important;
+                
+            }
+
+        }
+    }
+
+    .tab-content{
+        h3{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 150%;
+            color: #1E212C !important;
+        }
+
+        ul{
+            padding: 0 !important;
+            list-style-type: none !important;
+            li{
+                font-family: 'Lato';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                color: #424551;
+                font-style: normal;
+                margin-top: .6rem;
+            }
+        }
+
+        .serviceBtn{
+            a{
+                font-family: 'Lato';
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 44px;
+                text-align: center;
+                letter-spacing: 0.5px;
+                color: #7772F1;
+                padding: 12px 32px;
+                border: 1px solid #7772F1;
+                border-radius: 4px;
+                font-style: normal;
+                text-decoration: none;
+
+                &:hover{
+                    background: #7772F1;
+                    color: white;
+                }
+
+                &:nth-child(2){
+                    font-family: 'Lato';
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 44px;
+                    text-align: center;
+                    letter-spacing: 0.5px;
+                    color: #FFFFFF;
+                    padding: 12px 32px;
+                    background: #7772F1;
+                    border-radius: 4px;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+}
+
+

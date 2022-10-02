@@ -1,0 +1,40 @@
+.seoAnalysis{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    h1{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    input{
+        background-color: transparent !important;
+    }
+
+    label{
+        color: white !important;
+    }
+
+    #gridCheck{
+        background-color: rgb(139, 139, 139) !important;
+
+    }
+
+    #formBtn{
+        padding: 0px 44px;
+        background: #7772F1 !important;
+        border-radius: 4px;
+        font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 52px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+    }
+}

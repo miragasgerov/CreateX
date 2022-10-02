@@ -1,0 +1,16 @@
+.circle {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.circle h4 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1E212C;
+}
+.circle img {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=circle.css.map */
