@@ -61,19 +61,23 @@
 
         .heroBottom{
             .herobottomContent{
-                padding: 0px 40px;
-                border: 1px solid #FFFFFF;
-                border-radius: 4px;
                 background-color: transparent;
+                border: 1px solid #FFFFFF;
+                padding: 0px 40px;
+                gap: 10px;
+                border-radius: 4px;
+                width: 219px;
+                height: 52px;
                 a{
                     font-family: 'Lato';
-                    font-style: normal;
                     font-weight: 700;
                     font-size: 16px;
                     line-height: 52px;
+                    text-align: center;
                     letter-spacing: 0.5px;
+                    font-style: normal;
+                    color: #FFFFFF;
                     text-decoration: none;
-                    color: white !important;
                 }
             }
 
@@ -153,5 +157,12 @@
 
 
 
+
+ }
+
+
+
+
+ @media (max-width: 720px) { 
 
  }
