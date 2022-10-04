@@ -66,6 +66,7 @@
   font-style: normal;
   color: #FFFFFF;
   text-decoration: none;
+  white-space: nowrap;
 }
 .hero .heroContent .heroBottom .heroBottomBtn img {
   width: 55px;
@@ -114,6 +115,11 @@
   }
   #thirdRow ul li a {
     font-size: 18px !important;
+  }
+}
+@media (max-width: 720px) {
+  .heroBottom {
+    margin-top: 25px !important;
   }
 }
 .aboutCreateX {

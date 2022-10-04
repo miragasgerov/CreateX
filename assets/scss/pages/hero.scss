@@ -78,6 +78,8 @@
                     font-style: normal;
                     color: #FFFFFF;
                     text-decoration: none;
+                    white-space: nowrap; 
+
                 }
             }
 
@@ -164,5 +166,8 @@
 
 
  @media (max-width: 720px) { 
+    .heroBottom{
+        margin-top: 25px !important;
+    }
 
  }
