@@ -1,6 +1,8 @@
 .seoAnalysis {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 80px;
+}
+.seoAnalysis .row {
+  padding-top: 80px;
 }
 .seoAnalysis h1 {
   font-family: "Lato";
@@ -31,4 +33,10 @@
   text-align: center;
   letter-spacing: 0.5px;
   color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+  #formBtn {
+    margin-top: 15px !important;
+  }
 }/*# sourceMappingURL=seoAnalysis.css.map */

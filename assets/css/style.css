@@ -86,6 +86,10 @@
   line-height: 150%;
   color: #FFFFFF;
 }
+.hero #thirdRow ul li a img {
+  width: 40px;
+  height: 40px;
+}
 
 @media (max-width: 992px) {
   .heroContent h1 {
@@ -104,9 +108,12 @@
   #thirdRow ul li {
     margin-top: 20px;
   }
+  #thirdRow ul li a {
+    font-size: 18px !important;
+  }
 }
 .aboutCreateX {
-  margin-top: 12rem;
+  padding-top: 120px;
 }
 .aboutCreateX .aboutCreateText h3 {
   color: #1E212C;
@@ -128,7 +135,7 @@
   color: #424551;
 }
 .aboutCreateX #clientRow {
-  margin-top: 11.25rem;
+  padding-top: 180px;
 }
 
 @media (max-width: 992px) {
@@ -143,8 +150,7 @@
   }
 }
 .createxAgency {
-  margin-top: 13rem;
-  padding-bottom: 5rem;
+  margin-top: 170px;
 }
 .createxAgency h1 {
   font-family: "Lato";
@@ -181,8 +187,7 @@
 }
 
 .circle {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  margin-top: 180px;
 }
 .circle h4 {
   font-family: "Ubuntu";
@@ -199,6 +204,7 @@
 
 .ourService {
   margin-top: 180px;
+  margin-bottom: 83px;
 }
 .ourService h1 {
   font-family: "Lato";
@@ -277,8 +283,10 @@
 }
 
 .seoAnalysis {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 80px;
+}
+.seoAnalysis .row {
+  padding-top: 80px;
 }
 .seoAnalysis h1 {
   font-family: "Lato";
@@ -311,8 +319,14 @@
   color: #FFFFFF;
 }
 
+@media (max-width: 992px) {
+  #formBtn {
+    margin-top: 15px !important;
+  }
+}
 .askQuestion {
   padding-top: 180px;
+  margin-bottom: 120px;
 }
 .askQuestion h1 {
   font-family: "Lato";

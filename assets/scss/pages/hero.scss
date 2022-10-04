@@ -106,6 +106,10 @@
                     font-size: 20px;
                     line-height: 150%;
                     color: #FFFFFF;
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
                 }
             }
         }
@@ -140,6 +144,9 @@
 
         li{
             margin-top: 20px;
+            a{
+                font-size: 18px  !important;
+            }
         }
     }
     
