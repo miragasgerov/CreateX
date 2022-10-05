@@ -1,0 +1,75 @@
+.clientsCase {
+  padding-top: 80px;
+  background: #F4F5F7;
+  padding-bottom: 10rem;
+}
+.clientsCase .clientTitle h1 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1E212C;
+  font-style: normal;
+}
+.clientsCase .arrowClient i:nth-child(2) {
+  background: #7772F1;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+.clientsCase .clientCards {
+  min-width: 390px;
+  max-height: 390px;
+  background-color: white;
+  border: 1px solid #E5E8ED;
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+  border-radius: 4px;
+}
+.clientsCase .clientCards h3 {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #1E212C;
+  font-style: normal;
+  margin-top: 8px;
+}
+.clientsCase .clientCards p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #787A80;
+  font-style: normal;
+  margin-top: 20px;
+}
+.clientsCase .clientCards .bottomClientCards {
+  padding-top: 50px;
+}
+.clientsCase .clientCards .bottomClientCards .bottomClient img {
+  width: 40px;
+  height: 40px;
+}
+.clientsCase .clientCards .bottomClientCards .bottomClient .bottomClientText span {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 150%;
+  color: #1E212C;
+}
+.clientsCase .clientCards .bottomClientCards .bottomClient .bottomClientText p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #1E212C;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .clientCardSec {
+    margin-top: 20px !important;
+  }
+}/*# sourceMappingURL=clientsCase.css.map */
